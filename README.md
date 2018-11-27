@@ -29,6 +29,9 @@ open Terminal
 /dev/tty.wchusbserial1420
 
 MicroPython Firmware
+
 Download：http://micropython.org/download#esp8266
+
 choose esp8266-20180511-v1.9.4.bin (latest)
-中文測試
+
+
