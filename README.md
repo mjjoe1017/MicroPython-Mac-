@@ -75,3 +75,13 @@ esptool.py v2.5.1
 
 Hard resetting via RTS pin…
 
+
+# 透過終端機操控MicroPython控制板
+
+Mac use screen connect MicroPython control board
+
+$screen /dev/tty.wchusbserial1420 115200
+
+close screen:
+
+press Ctrl+A+K > y
