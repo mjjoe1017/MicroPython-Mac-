@@ -53,6 +53,7 @@ choose esp8266-20180511-v1.9.4.bin (latest)
 ESP8266 control board use before. Will execution erase flash ROM
 
 $ esptool.py --port /dev/tty.wchusbserial1420 erase_flash (SLAB_USBtoUART = your port name)
+
 Connecting....
 
 ...
@@ -67,7 +68,7 @@ Hard resetting via RTS pin...
 
 download esp8266-20180511-v1.9.4.bin file put user folder
 
-$esptool.py --port /dev/tty.wchusbserial1420 --baud 460800 write_flash —flash_size=detect 0 esp8266-20180511-v1.9.4.bin
+$esptool.py --port /dev/tty.wchusbserial1420 --baud 115200 write_flash —flash_size=detect 0 esp8266-20180511-v1.9.4.bin
 
 esptool.py v2.5.1
 
