@@ -86,3 +86,16 @@ $screen /dev/tty.wchusbserial1420 115200
 close screen:
 
 press Ctrl+A+K > y
+
+
+# 上傳程式檔到ESP8266控制板
+
+安裝ampy
+
+>sudo pip3 install adafruit-ampy
+
+更新ampy
+
+>sudo pip3 install adafruit-ampy --upgrade
+
+
