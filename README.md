@@ -118,3 +118,13 @@ y
 
 webREPL daemon started on ws://192.168.4.1:8266
 
+
+download webrepl.html file
+
+https://github.com/micropython/webrepl
+
+wifi connect you setting MicroPython-376e7f
+
+執行webrepl.html
+
+按下connect
