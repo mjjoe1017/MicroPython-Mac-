@@ -128,3 +128,19 @@ wifi connect you setting MicroPython-376e7f
 執行webrepl.html
 
 按下connect
+
+# 設定ESP8266以STA(基站)模式連接無線網路
+
+# 查找無線網路提供ip
+
+將本機網路連結到同一 wifi ("ssid", "pwd")
+
+執行uPyCraft輸入
+
+>import network
+>wlan = network.WLAN(network.STA_IF)
+>wlan.active(True)
+>wlan.connect("ssid", "pwd")
+>wlan.ifconfig()
+
+6-12
