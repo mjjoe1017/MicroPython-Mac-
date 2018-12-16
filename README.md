@@ -138,9 +138,13 @@ wifi connect you setting MicroPython-376e7f
 執行uPyCraft輸入
 
 >import network
+
 >wlan = network.WLAN(network.STA_IF)
+
 >wlan.active(True)
+
 >wlan.connect("ssid", "pwd")
+
 >wlan.ifconfig()
 
 6-12
