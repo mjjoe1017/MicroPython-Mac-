@@ -99,3 +99,22 @@ press Ctrl+A+K > y
 >sudo pip3 install adafruit-ampy --upgrade
 
 
+# 啟用WebREPL
+
+執行uPyCraft 
+
+輸入
+
+>import webrepl_setup
+
+
+New password:12345678
+
+Confirm password:12345678
+
+Would you like to reboot now? (y/n)
+
+y
+
+webREPL daemon started on ws://192.168.4.1:8266
+
